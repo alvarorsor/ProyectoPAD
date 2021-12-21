@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e127a41ecb05435bad4f2ef59a880cd4" Name="Diagram1">
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.brands" Width="1.5" PointX="1.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.categories" Width="1.5" PointX="1.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.products" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.stocks" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.customers" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.order_items" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.orders" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.staffs" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaDeBicicletas_dbModel.stores" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__products__brand___619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__products__catego__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__order_ite__produ__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__stocks__product___778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__stocks__store_id__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__orders__customer__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__order_ite__order__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__orders__staff_id__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__orders__store_id__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__staffs__manager___6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaDeBicicletas_dbModel.FK__staffs__store_id__693CA210" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
